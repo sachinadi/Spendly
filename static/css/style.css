@@ -369,6 +369,55 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ------------------------------------------------------------------ */
+/* Legal pages                                                         */
+/* ------------------------------------------------------------------ */
+
+.legal-section {
+    padding: 3rem 2rem 5rem;
+}
+
+.legal-inner {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.legal-header {
+    margin-bottom: 2rem;
+}
+
+.legal-title {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 4vw, 2.75rem);
+    color: var(--ink);
+    margin-bottom: 0.5rem;
+}
+
+.legal-updated {
+    font-size: 0.85rem;
+    color: var(--ink-muted);
+}
+
+.legal-intro {
+    color: var(--ink-soft);
+    margin-bottom: 2.5rem;
+}
+
+.legal-block {
+    margin-bottom: 2rem;
+}
+
+.legal-block h2 {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    color: var(--ink);
+    margin-bottom: 0.75rem;
+}
+
+.legal-block p {
+    color: var(--ink-soft);
+}
+
+/* ------------------------------------------------------------------ */
 /* Auth pages                                                          */
 /* ------------------------------------------------------------------ */
 
